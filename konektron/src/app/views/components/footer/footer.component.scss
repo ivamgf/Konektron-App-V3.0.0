@@ -1,0 +1,51 @@
+.style-footer{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 0px;
+    background-color: #111;
+  }
+.style-text{
+   margin-left: 1%;
+   color:#818181;
+}
+.fa-mobile-alt:before {
+    content: "\f3cd";
+    color: rgba(255,255,255,.5);
+}
+.fa-globe-americas:before {
+    content: "\f57d";
+    color: rgba(255,255,255,.5);
+}
+.fa-file-alt:before {
+    content: "\f15c";
+    color: rgba(255,255,255,.5);
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    color: rgba(255,255,255,.5);
+}
+.row {
+    width: 90%;
+}
+.style-text2{
+    margin-left: 12%;
+    color: rgba(255, 255, 255, 0.541);
+ }
+@media only screen and (min-width: 557px) and (max-width: 992px){
+    .style-text{
+        margin-left: 1%;
+        color: #818181;
+     }
+}
+@media only screen and (max-width: 557px){
+    .style-text{
+        margin-left: 1%;
+        color: white;
+        display: none;
+     }
+     .style-text2{
+        margin-left: 14%;
+        color: rgba(255, 255, 255, 0.541);
+     }
+}
