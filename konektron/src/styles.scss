@@ -3,5 +3,11 @@
 /* @import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
 @import "~font-awesome/css/font-awesome.min.css";
 /* @import "./../node_modules/font-awesome/css/font-awesome.min.css"; */
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+    height: 100%;
+    background-color: #111; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
